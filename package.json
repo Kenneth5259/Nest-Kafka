@@ -1,0 +1,49 @@
+{
+  "name": "@ken5259/nest-kafka",
+  "version": "1.0.0",
+  "description": "A Nest JS dynamic module for enabling kafka in a given project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "nest build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
+  },
+  "author": "Kenneth Carroll <kenneth.james.carroll@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.1.4",
+    "kafkajs": "^2.2.1"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^9.1.4",
+    "@types/jest": "^29.1.2",
+    "jest": "^29.2.0",
+    "supertest": "^6.3.0",
+    "ts-jest": "^29.0.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coveragePathIgnorePatterns": [
+      "src/index.ts",
+      "src/nest-kafka.module.ts"
+    ],
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/src/"
+    ]
+  }
+}
