@@ -1,6 +1,6 @@
 {
   "name": "@ken5259/nest-kafka",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Nest JS dynamic module for enabling kafka in a given project",
   "main": "dist/index.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kenneth5259/Nest-Kafka.git"
   },
   "keywords": [
     "NestJS",
