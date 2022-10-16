@@ -9,6 +9,12 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
   },
+  "keywords": [
+    "NestJS",
+    "Kafka",
+    "DynamicModule",
+    "TypeScript"
+  ],
   "author": "Kenneth Carroll <kenneth.james.carroll@gmail.com>",
   "license": "ISC",
   "dependencies": {
