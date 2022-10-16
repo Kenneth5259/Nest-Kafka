@@ -1,6 +1,6 @@
 {
   "name": "@ken5259/nest-kafka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Nest JS dynamic module for enabling kafka in a given project",
   "main": "dist/index.js",
   "scripts": {
